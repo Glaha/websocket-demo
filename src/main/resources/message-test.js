@@ -8,4 +8,5 @@ websocket.onopen = function (ev) {
 
 websocket.onmessage = function (ev) {
     console.log("ws message sended")
+    console.log(ev.data)
 }

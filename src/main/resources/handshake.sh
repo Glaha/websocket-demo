@@ -2,9 +2,9 @@ curl --include \
      --no-buffer \
      --header "Connection: Upgrade" \
      --header "Upgrade: websocket" \
-     --header "Host: 127.0.0.1:8080" \
-     --header "Origin: http://127.0.0.1:8080" \
+     --header "Host: 10.210.117.28:31033" \
+     --header "Origin: http://10.210.117.28:31033" \
      --header "Sec-WebSocket-Key: SGVsbG8sIHdvcmxkIQ==" \
      --header "Sec-WebSocket-Version: 13" \
      -iv \
-     http://127.0.0.1:8080/websocket/test
+     http://10.210.117.28:31033/ws/websocket
